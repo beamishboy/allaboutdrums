@@ -1,0 +1,706 @@
+@import "./mylocalvariables";
+
+.bg-drum-success-tinted {
+    background-color: $drum-success-tinted;
+}
+
+.bg-drum-success-shaded {
+    background-color: $drum-success-shaded;
+}
+
+.bg-drum-warning-tinted {
+    background-color: $drum-warning-tinted;
+}
+
+.bg-drum-warning-shaded {
+    background-color: $drum-warning-shaded;
+}
+
+.bg-drum-primary {
+    background-color: $drum-primary;
+}
+
+.bg-drum-danger {
+    background-color: $drum-danger;
+}
+
+.bg-drum-primary-shaded {
+    background-color: $drum-primary-shaded;
+}
+
+.bg-drum-danger-shaded {
+    background-color: $drum-danger-shaded;
+}
+
+.bg-drum-primary-tinted {
+    background-color: $drum-primary-tinted;
+}
+
+.bg-drum-danger-tinted {
+    background-color: $drum-danger-tinted;
+}
+
+.bg-drum-secondary {
+    background-color: $drum-secondary;
+}
+
+.bg-drum-light {
+    background-color: $drum-light;
+}
+
+html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+body {
+    position:relative;
+}
+
+.navbar-drums {
+
+    opacity: 50%;
+    background-color: $drum-primary-shaded;
+    border: gainsboro 2px solid;
+    border-radius: 7px;
+
+    .nav-link {
+        color: rgb(180, 216, 206);
+
+    }
+
+    .navbar-brand {
+        color: $drum-success-tinted;
+    }
+}
+
+#dummyTopSection {
+    background-color: black;
+    height:3.5em;
+    margin-top:0px;
+    margin-bottom:0px;
+}
+
+#showcase {
+
+    margin-top:0px;
+    .carousel-item {
+        transition: transform 0.9s ease-in-out;
+    }
+
+    .carousel-caption {
+        opacity: 0;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        transition: opacity 0.15s ease;
+    }
+
+    .col {
+        background-image: url(../img/background/istockphoto-drums-watermark.jpg);
+        background-size: 200px;
+    }
+
+    .dark-overlay {
+        background-color: rgba($color: #000000, $alpha: 0.11);
+        height: 100%;
+    }
+
+    .blur-overlay {
+        backdrop-filter: blur(2px);
+        background-color: rgba($color: #000000, $alpha: 0.55);
+        margin: 0.5em;
+        border-radius: 0.7em;
+        height: 60%;
+    }
+}
+
+#introText {
+    background-color: $drum-secondary;
+    min-height: 65px;
+    border-top: 2px solid white;
+    p {
+        padding-bottom:0;
+        margin-bottom:0;
+    }
+}
+
+#drumRegionsHeader {
+
+    .parallax-window {
+        min-height: 200px;
+        background: transparent;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+    }
+
+    .header-text {
+        z-index:2;
+        position:relative;
+        padding-bottom: 20px;
+    }
+    .experimental {
+        z-index:2;
+        position:relative;
+        background-color: $drum-secondary;
+        min-height: 15px;
+        margin-top: -35px;
+        padding-top:0;
+    }
+
+}
+
+#drumRegionsMain {
+
+    .bg-drum-success {
+        background-color: $drum-success-shaded;
+        .card-body {
+            img {
+                background-color: $drum-success-tinted;
+            }
+        }
+    }
+
+    .bg-drum-success:hover {
+        background-image:url("../img/background/ForPatterns/regions_bg_pattern_green.png");
+    }
+
+    .bg-drum-warning {
+        background-color: $drum-warning;
+        .card-body {
+            img {
+                background-color: $drum-warning-tinted;
+            }
+        }
+    }
+
+    .bg-drum-warning:hover {
+        background-image:url("../img/background/ForPatterns/regions_bg_pattern_orange.png");
+    }
+
+    .bg-drum-primary {
+        background-color: $drum-primary;
+        .card-body {
+            img {
+                background-color: $drum-primary-tinted;
+            }
+        }
+    }
+
+    .bg-drum-primary:hover {
+        background-image:url("../img/background/ForPatterns/regions_bg_pattern_blue.png");
+    }
+
+    .bg-drum-danger {
+        background-color: $drum-danger;
+        .card-body {
+            img {
+                background-color: $drum-danger-tinted;
+            }
+        }
+    }
+
+    .bg-drum-danger:hover {
+        //background-image:url("../img/background/dreamstime_xs_121581799.jpg");
+        background-image:url("../img/background/ForPatterns/regions_bg_pattern_red.png");
+    }
+
+    .outer-card {
+        height: 380px;
+        border-radius:3px;
+        img {
+            border: 1px solid gainsboro;
+            width: 70px;
+            height:70px;
+            margin-top: -50px;
+            margin-bottom: 0px;
+            padding-bottom: 0px;
+            align-self: center;
+            padding:10px;
+        }
+        
+        .card-body {
+        
+            display: flex;
+            display: -webkit-flex;
+            flex-direction: column;
+            align-items: stretch;
+            justify-content:space-between;
+
+            h3 {
+                text-align: center;
+                margin-top: 0;
+                padding-top: 0;
+            }
+
+            h5 {
+                //font-family:'Bahnschrift Light Condensed', 'Impact', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Verdana, Geneva, Tahoma, Arial, sans-serif;
+                font-family:'Bahnschrift', 'Impact', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Verdana, Geneva, Tahoma, Arial, sans-serif;
+                font-size: 18px;
+                font-weight: bold;
+                font-variant: small-caps;
+                text-shadow: none;
+                //color: #f5f396;
+                color: #eeeeee;
+                position: absolute;
+                top: 4px;
+                left: 10px;
+                margin: 0;
+                text-transform: capitalize;
+                //opacity: 0;
+            }
+
+            .inner-card {
+                height: 280px;
+                display: flex;
+                display: -webkit-flex;
+                flex-direction: column;
+                background-color:transparent;
+                border:none;
+
+                .panel {
+                    background-size:contain;
+                    background-repeat: no-repeat;
+                    border-radius: 3px;
+                    cursor: pointer;
+                    flex: 1;
+                    -webkit-flex: 1;
+                    margin: 2px;
+                    position: relative;
+                    //background-color:#333;
+                    //background-color:red;
+                    background-color:transparent;
+                    background-image: radial-gradient( rgba(17, 17, 17, 1) 20%, rgba(17, 17, 17, .95) 50%, rgba(17, 17, 17, .8) 80%, rgba(17, 17, 17, .7)  95%);
+
+                    //transition: flex 500ms;
+                    -webkit-transition: all 500ms ease-in-out;
+                    -webkit-transition: -webkit-flex 500ms ease-in-out;
+                    transition: all 500ms ease-in-out;
+                    //transition: background-color 1ms;
+                    //-webkit-transition: background-color 1ms ease-in-out;
+            
+                }
+
+                .panel.active {
+                    flex: 8;
+                    -webkit-flex: 8;
+                    background-color:transparent;
+                    background-image: radial-gradient( rgba(255,255,255, 1) 20%, rgba(255,255,255, .95) 50%, rgba(255,255,255, .8) 80%, rgba(255, 255, 255, .7)  95%);
+                    h5 {
+                        text-shadow:none;
+                        color: #523d03;
+                    }
+                    //transition: flex 500ms;
+                    -webkit-transition: all 500ms ease-in-out;
+                    -webkit-transition: -webkit-flex 500ms ease-in-out;
+                    transition: all 500ms ease-in-out;
+            
+                    .panel:hover {
+                        background-color: transparent;
+                        background-image: radial-gradient( rgba(255,255,255, 1) 20%, rgba(255,255,255, .95) 50%, rgba(255,255,255, .8) 80%, rgba(255, 255, 255, .7)  95%);
+                        //transition: background-color 1ms;
+                        -webkit-transition: all 500ms ease-in-out;
+                        -webkit-transition: background-color 500ms ease-in-out;
+                        transition: all 500ms ease-in-out;
+                    }
+                    .panel-image {
+                        background-position: center;
+                        //transition: background-position 500ms;
+                        -webkit-transition: all 500ms ease-in-out;
+                        -webkit-transition: background-position 500ms ease-in-out;
+                        transition: all 500ms ease-in-out;
+                    }
+                }
+            }
+        }
+    }
+
+
+
+    .outer-card:hover {
+        background-repeat: true;
+        background-size: 70px;
+        h3 {
+            color:white;
+        }
+
+        img {
+            border: 2px solid $drum-primary-shaded;
+            background-color: #fffdfb;
+            padding:2px;
+        }
+
+        .panel:hover {
+            background-color: rgba(255, 255, 250, 0.8);
+            background-image: radial-gradient( rgba(255,255,255, 1) 20%, rgba(255,255,255, .95) 50%, rgba(255,255,255, .8) 80%, rgba(255, 255, 255, .7)  95%);
+            h5 {
+                //text-shadow: 0 0 2px #dfe20d;
+                color: #523d03;
+
+            }
+            
+            //transition: background-color 1ms;
+            -webkit-transition: all 500ms ease-in-out;
+            -webkit-transition: background-color 500ms ease-in-out;
+            transition: all 500ms ease-in-out;
+        }
+
+        .panel.active:hover {
+            background-color: transparent;            
+            h5 {
+                text-shadow:none;
+            }
+            
+            //transition: background-color 1ms;
+            -webkit-transition: all 500ms ease-in-out;
+            -webkit-transition: background-color 500ms ease-in-out;
+            transition: all 500ms ease-in-out;
+        }
+    }
+
+
+
+
+
+
+
+
+  .panel-image {
+    height:100%;
+    background-size:contain;
+    background-position:right;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    margin: 2px;
+    //transition: background-position 500ms;
+    -webkit-transition: all 500ms ease-in-out;
+    -webkit-transition: background-position 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
+    }
+
+  .panel-image-djembe {
+    background-image: url("../img/region_drums/African/512px-Djembe_drum_01-removebg-preview.png");  
+  }
+  .panel-image-bongo {
+    background-image: url("../img/region_drums/African/wood-drum-musical-instrument-percussion-lp-drums-794455-pxhere.com-removebg-preview.png");  
+  }
+  .panel-image-conga {
+    background-image: url("../img/region_drums/African/Congas-removebg-preview.png");  
+  }
+  .panel-image-dundun {
+    background-image: url("../img/region_drums/African/Dundun_malinke-removebg-preview.png");  
+  }
+  .panel-image-talkingdrum {
+    background-image: url("../img/region_drums/African/TalkingDrum-removebg-preview.png");  
+  }
+  .panel-image-darbuka {
+    background-image: url("../img/region_drums/MiddleEastern/512px-Darbuka-removebg-preview.png");  
+  }
+  .panel-image-bendir {
+    background-image: url("../img/region_drums/MiddleEastern/Bendir_avec_écriture_arabe-removebg-preview.png");  
+  }
+  .panel-image-nakkareh {
+    background-image: url("../img/region_drums/MiddleEastern/Iraqi_Naqqarat-removebg-preview.png");
+  }
+  .panel-image-bodhran {
+    background-image: url("../img/region_drums/European/Bodhran-Hinnerk-Ruemenapf-0037-p70-removebg-preview.png");  
+  }
+  .panel-image-danbolin {
+    background-image: url("../img/region_drums/European/Danbolin_arrunta-removebg-preview.png");  
+  }
+  .panel-image-tambourine {
+    background-image: url("../img/region_drums/European/Galician_tambourine-removebg-preview.png");  
+  }
+  .panel-image-tabla {
+    background-image: url("../img/region_drums/Indian/tabla-removebg-preview.png");  
+  }
+  .panel-image-damru {
+    background-image: url("../img/region_drums/Indian/Damaru_instrument_5-removebg-preview.png");  
+  }
+  .panel-image-mridanga {
+    background-image: url("../img/region_drums/Indian/Mridanga_1-removebg-preview.png");  
+  }
+
+  
+}
+
+#WhyDrummingHeader {
+    background-image: url("../img/background/drum-set-1839383_1920.jpg");
+    background-repeat: no-repeat;
+    height: 200px;
+    position: relative;
+    background-attachment: fixed;
+    background-position: 0 -200px;
+    background-size:cover;
+    
+
+    .row {
+        height:100%;
+    }
+
+    .dark-overlay {
+        background-color: rgba($color: #000, $alpha: 0.55);
+    }
+    .light-overlay {
+        background-color: rgba($color: #fff, $alpha: 0.55);
+    }
+
+}
+
+#WhyDrummingMain {
+
+    .text-drum-primary {
+        color: $drum-primary;
+    }
+    .text-drum-primary-shaded {
+        color: $drum-primary-shaded;
+    }
+
+    .accordion-header {
+        h5 {
+        padding-top: 3px;
+        padding-bottom: 3px;
+        margin-top:2px;
+        margin-bottom:2px;
+        }
+    }
+}
+
+.info-header {
+    width: 50%;
+    margin: auto;
+  }
+
+  .info-header-border {
+    width: 50%;
+    margin: auto;
+    border-bottom: 1px #ddd solid;
+  }
+
+  .accordion-button{
+    display:block;
+    padding-top: 1px;
+    padding-bottom:1px;
+}
+
+#WhyDrummingCards {
+    .container{
+        width:60vw;
+    }
+}
+
+#contact {
+
+    #contact-photo {
+        height:240px;
+        width:240px;
+        background-color: lime;
+        background-image: url("../img/card deck/portrait-of-jack-costanzo-1947-or-1948-1.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius:50%;
+        margin-top:3em;
+
+    }
+
+    .input-group-text {
+        width:55px;
+        i {
+            margin:auto;
+        }
+    }
+
+}
+
+#main-footer {
+    padding-top: 15px;
+    button {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-variant: small-caps;
+        letter-spacing:3px;
+    }
+    .modal-body {
+        text-align: start;
+        .table {
+            font-size: xx-small;
+            .thead {
+                position:sticky;
+                top:0;
+
+                tr {
+                    th {
+                        position:sticky;
+                        top:0;
+                    }
+                }
+            }
+        }
+    }
+
+    .attrib-remarks {
+        background-color: rgb(230, 238, 248);
+        vertical-align: middle;
+    }
+
+    .footer-band {
+        height: 30px;
+        margin-top: 15px;
+        background-color: $drum-primary-shaded;
+    }
+}
+
+
+//For reference: scss-docs-start grid-breakpoints
+// $grid-breakpoints: (
+//   xs: 0,
+//   sm: 576px,
+//   md: 768px,
+//   lg: 992px,
+//   xl: 1200px,
+//   xxl: 1400px
+// ) !default;
+// scss-docs-end grid-breakpoints
+
+@media (max-width: 991px) {
+    #showcase {
+        .blur-overlay {
+            height: 100%;
+            margin: 0.5em;
+        }
+    }
+
+    #drumRegionsMain {
+
+        .outer-card {
+            margin-top:30px;
+            height:450px;
+            .card-body{
+                .inner-card {
+                    height:350px;
+                    .panel {
+                        flex:1.5;
+                        -webkit-flex: 1.5;
+                        //transition: flex 500ms;
+                        -webkit-transition: all 500ms ease-in-out;
+                        -webkit-transition: -webkit-flex 500ms ease-in-out;
+                        transition: all 500ms ease-in-out;
+                    }
+                }   
+
+                h5 {
+                    top: 14px;
+                }
+            }
+        }
+
+        .panel-image{
+            background-position: center;
+        }
+
+        @media (max-width: 399px) {
+            .panel-image-tambourine {
+            background-position-x: 54%;  
+            }
+        }
+
+        .panel.active {
+            .panel-image{
+                background-position: center;
+                
+                //transition: background-position 500ms;
+                -webkit-transition: all 500ms ease-in-out;
+                -webkit-transition: background-position 500ms ease-in-out;
+                transition: all 500ms ease-in-out;
+            }
+        }
+    }
+}
+
+@supports (-webkit-touch-callout: none) {
+    /* CSS specific to iOS devices */ 
+
+    #WhyDrummingHeader {
+        background-attachment: scroll;
+        background-position-x: 50%;
+        background-position-y: 50%;
+        background-size: cover;
+    }
+
+    #drumRegionsHeader {
+
+        .parallax-window {
+            min-height: 150px;
+        }
+    }
+}
+
+@media (hover:hover) {
+    /* CSS specific to hoverable (likely non-mobile) devices */ 
+    #contact {
+        .beatTextTransparent {
+            color:transparent;
+            transition: color .4s ease;
+        }
+
+        .beatTextOpaque {
+            transition: color .9s ease;
+        }
+    }
+}
+
+
+@media (hover:none) {
+    /* CSS specific to non-hoverable (likely mobile) devices */ 
+
+    #drumRegionsMain {
+        .bg-drum-success:hover {
+            background-image:none;
+        }
+
+        .bg-drum-warning:hover {
+            background-image:none;
+        }
+
+        .bg-drum-primary:hover {
+            background-image:none;
+        }
+
+        .bg-drum-danger:hover {
+            background-image:none;
+        }
+    }
+
+    #contact {
+        .beatTextTransparent {
+            color:transparent;
+        }
+
+        .beatTextOpaque {
+            color:transparent;
+        }
+    }
+
+
+    @supports not (-webkit-touch-callout: none) {
+        /* CSS specific to non-iOS non-hoverable (likely mobile) devices */ 
+        #WhyDrummingHeader {
+            background-size: auto;
+            background-position-x: 50%;
+            background-position-y: -50px;
+        }
+
+        #drumRegionsHeader {
+
+            .parallax-window {
+                min-height: 150px;
+            }
+        }
+    }
+}

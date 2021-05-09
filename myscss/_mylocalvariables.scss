@@ -1,0 +1,24 @@
+@function tint($color, $percentage) {
+    @return mix(white, $color, $percentage);
+}
+
+@function shade($color, $percentage) {
+    @return mix(black, $color, $percentage);
+}
+
+$drum-primary: rgb(72, 100, 163);
+$drum-primary-tinted: tint($drum-primary, 60%);
+$drum-primary-shaded: shade($drum-primary, 60%);
+$drum-success: rgb(224, 255, 175);
+$drum-success-tinted: tint($drum-success, 30%);
+$drum-success-shaded: shade($drum-success, 30%);
+$drum-secondary: rgb(180, 216, 206);
+$drum-secondary-tinted: tint($drum-secondary, 60%);
+$drum-secondary-shaded: shade($drum-secondary, 20%);
+$drum-warning: rgb(231, 169, 50);
+$drum-warning-tinted: tint($drum-warning, 60%);
+$drum-warning-shaded: shade($drum-warning, 20%);
+$drum-danger: rgb(199, 53, 66);
+$drum-danger-tinted: tint($drum-danger, 20%);
+$drum-danger-shaded: shade($drum-danger, 20%);
+$drum-light: rgb(255,255,230);

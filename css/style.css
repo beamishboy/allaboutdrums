@@ -1,0 +1,656 @@
+@charset "UTF-8";
+.bg-drum-success-tinted {
+  background-color: #e9ffc7;
+}
+
+.bg-drum-success-shaded {
+  background-color: #9db37b;
+}
+
+.bg-drum-warning-tinted {
+  background-color: #f5ddad;
+}
+
+.bg-drum-warning-shaded {
+  background-color: #b98728;
+}
+
+.bg-drum-primary {
+  background-color: #4864a3;
+}
+
+.bg-drum-danger {
+  background-color: #c73542;
+}
+
+.bg-drum-primary-shaded {
+  background-color: #1d2841;
+}
+
+.bg-drum-danger-shaded {
+  background-color: #9f2a35;
+}
+
+.bg-drum-primary-tinted {
+  background-color: #b6c1da;
+}
+
+.bg-drum-danger-tinted {
+  background-color: #d25d68;
+}
+
+.bg-drum-secondary {
+  background-color: #b4d8ce;
+}
+
+.bg-drum-light {
+  background-color: #ffffe6;
+}
+
+html, body {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+body {
+  position: relative;
+}
+
+.navbar-drums {
+  opacity: 50%;
+  background-color: #1d2841;
+  border: gainsboro 2px solid;
+  border-radius: 7px;
+}
+
+.navbar-drums .nav-link {
+  color: #b4d8ce;
+}
+
+.navbar-drums .navbar-brand {
+  color: #e9ffc7;
+}
+
+#dummyTopSection {
+  background-color: black;
+  height: 3.5em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#showcase {
+  margin-top: 0px;
+}
+
+#showcase .carousel-item {
+  -webkit-transition: -webkit-transform 0.9s ease-in-out;
+  transition: -webkit-transform 0.9s ease-in-out;
+  transition: transform 0.9s ease-in-out;
+  transition: transform 0.9s ease-in-out, -webkit-transform 0.9s ease-in-out;
+}
+
+#showcase .carousel-caption {
+  opacity: 0;
+}
+
+#showcase .carousel-control-prev,
+#showcase .carousel-control-next {
+  -webkit-transition: opacity 0.15s ease;
+  transition: opacity 0.15s ease;
+}
+
+#showcase .col {
+  background-image: url(../img/background/istockphoto-drums-watermark.jpg);
+  background-size: 200px;
+}
+
+#showcase .dark-overlay {
+  background-color: rgba(0, 0, 0, 0.11);
+  height: 100%;
+}
+
+#showcase .blur-overlay {
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+  background-color: rgba(0, 0, 0, 0.55);
+  margin: 0.5em;
+  border-radius: 0.7em;
+  height: 60%;
+}
+
+#introText {
+  background-color: #b4d8ce;
+  min-height: 65px;
+  border-top: 2px solid white;
+}
+
+#introText p {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+#drumRegionsHeader .parallax-window {
+  min-height: 200px;
+  background: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#drumRegionsHeader .header-text {
+  z-index: 2;
+  position: relative;
+  padding-bottom: 20px;
+}
+
+#drumRegionsHeader .experimental {
+  z-index: 2;
+  position: relative;
+  background-color: #b4d8ce;
+  min-height: 15px;
+  margin-top: -35px;
+  padding-top: 0;
+}
+
+#drumRegionsMain .bg-drum-success {
+  background-color: #9db37b;
+}
+
+#drumRegionsMain .bg-drum-success .card-body img {
+  background-color: #e9ffc7;
+}
+
+#drumRegionsMain .bg-drum-success:hover {
+  background-image: url("../img/background/ForPatterns/regions_bg_pattern_green.png");
+}
+
+#drumRegionsMain .bg-drum-warning {
+  background-color: #e7a932;
+}
+
+#drumRegionsMain .bg-drum-warning .card-body img {
+  background-color: #f5ddad;
+}
+
+#drumRegionsMain .bg-drum-warning:hover {
+  background-image: url("../img/background/ForPatterns/regions_bg_pattern_orange.png");
+}
+
+#drumRegionsMain .bg-drum-primary {
+  background-color: #4864a3;
+}
+
+#drumRegionsMain .bg-drum-primary .card-body img {
+  background-color: #b6c1da;
+}
+
+#drumRegionsMain .bg-drum-primary:hover {
+  background-image: url("../img/background/ForPatterns/regions_bg_pattern_blue.png");
+}
+
+#drumRegionsMain .bg-drum-danger {
+  background-color: #c73542;
+}
+
+#drumRegionsMain .bg-drum-danger .card-body img {
+  background-color: #d25d68;
+}
+
+#drumRegionsMain .bg-drum-danger:hover {
+  background-image: url("../img/background/ForPatterns/regions_bg_pattern_red.png");
+}
+
+#drumRegionsMain .outer-card {
+  height: 380px;
+  border-radius: 3px;
+}
+
+#drumRegionsMain .outer-card img {
+  border: 1px solid gainsboro;
+  width: 70px;
+  height: 70px;
+  margin-top: -50px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  padding: 10px;
+}
+
+#drumRegionsMain .outer-card .card-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: -webkit-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#drumRegionsMain .outer-card .card-body h3 {
+  text-align: center;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+#drumRegionsMain .outer-card .card-body h5 {
+  font-family: 'Bahnschrift', 'Impact', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Verdana, Geneva, Tahoma, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  font-variant: small-caps;
+  text-shadow: none;
+  color: #eeeeee;
+  position: absolute;
+  top: 4px;
+  left: 10px;
+  margin: 0;
+  text-transform: capitalize;
+}
+
+#drumRegionsMain .outer-card .card-body .inner-card {
+  height: 280px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: -webkit-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: transparent;
+  border: none;
+}
+
+#drumRegionsMain .outer-card .card-body .inner-card .panel {
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 3px;
+  cursor: pointer;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-flex: 1;
+  margin: 2px;
+  position: relative;
+  background-color: transparent;
+  background-image: radial-gradient(#111111 20%, rgba(17, 17, 17, 0.95) 50%, rgba(17, 17, 17, 0.8) 80%, rgba(17, 17, 17, 0.7) 95%);
+  -webkit-transition: all 500ms ease-in-out;
+  -webkit-transition: -webkit-flex 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+}
+
+#drumRegionsMain .outer-card .card-body .inner-card .panel.active {
+  -webkit-box-flex: 8;
+      -ms-flex: 8;
+          flex: 8;
+  -webkit-flex: 8;
+  background-color: transparent;
+  background-image: radial-gradient(white 20%, rgba(255, 255, 255, 0.95) 50%, rgba(255, 255, 255, 0.8) 80%, rgba(255, 255, 255, 0.7) 95%);
+  -webkit-transition: all 500ms ease-in-out;
+  -webkit-transition: -webkit-flex 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+}
+
+#drumRegionsMain .outer-card .card-body .inner-card .panel.active h5 {
+  text-shadow: none;
+  color: #523d03;
+}
+
+#drumRegionsMain .outer-card .card-body .inner-card .panel.active .panel:hover {
+  background-color: transparent;
+  background-image: radial-gradient(white 20%, rgba(255, 255, 255, 0.95) 50%, rgba(255, 255, 255, 0.8) 80%, rgba(255, 255, 255, 0.7) 95%);
+  -webkit-transition: all 500ms ease-in-out;
+  -webkit-transition: background-color 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+}
+
+#drumRegionsMain .outer-card .card-body .inner-card .panel.active .panel-image {
+  background-position: center;
+  -webkit-transition: all 500ms ease-in-out;
+  -webkit-transition: background-position 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+}
+
+#drumRegionsMain .outer-card:hover {
+  background-repeat: true;
+  background-size: 70px;
+}
+
+#drumRegionsMain .outer-card:hover h3 {
+  color: white;
+}
+
+#drumRegionsMain .outer-card:hover img {
+  border: 2px solid #1d2841;
+  background-color: #fffdfb;
+  padding: 2px;
+}
+
+#drumRegionsMain .outer-card:hover .panel:hover {
+  background-color: rgba(255, 255, 250, 0.8);
+  background-image: radial-gradient(white 20%, rgba(255, 255, 255, 0.95) 50%, rgba(255, 255, 255, 0.8) 80%, rgba(255, 255, 255, 0.7) 95%);
+  -webkit-transition: all 500ms ease-in-out;
+  -webkit-transition: background-color 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+}
+
+#drumRegionsMain .outer-card:hover .panel:hover h5 {
+  color: #523d03;
+}
+
+#drumRegionsMain .outer-card:hover .panel.active:hover {
+  background-color: transparent;
+  -webkit-transition: all 500ms ease-in-out;
+  -webkit-transition: background-color 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+}
+
+#drumRegionsMain .outer-card:hover .panel.active:hover h5 {
+  text-shadow: none;
+}
+
+#drumRegionsMain .panel-image {
+  height: 100%;
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  margin: 2px;
+  -webkit-transition: all 500ms ease-in-out;
+  -webkit-transition: background-position 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+}
+
+#drumRegionsMain .panel-image-djembe {
+  background-image: url("../img/region_drums/African/512px-Djembe_drum_01-removebg-preview.png");
+}
+
+#drumRegionsMain .panel-image-bongo {
+  background-image: url("../img/region_drums/African/wood-drum-musical-instrument-percussion-lp-drums-794455-pxhere.com-removebg-preview.png");
+}
+
+#drumRegionsMain .panel-image-conga {
+  background-image: url("../img/region_drums/African/Congas-removebg-preview.png");
+}
+
+#drumRegionsMain .panel-image-dundun {
+  background-image: url("../img/region_drums/African/Dundun_malinke-removebg-preview.png");
+}
+
+#drumRegionsMain .panel-image-talkingdrum {
+  background-image: url("../img/region_drums/African/TalkingDrum-removebg-preview.png");
+}
+
+#drumRegionsMain .panel-image-darbuka {
+  background-image: url("../img/region_drums/MiddleEastern/512px-Darbuka-removebg-preview.png");
+}
+
+#drumRegionsMain .panel-image-bendir {
+  background-image: url("../img/region_drums/MiddleEastern/Bendir_avec_écriture_arabe-removebg-preview.png");
+}
+
+#drumRegionsMain .panel-image-nakkareh {
+  background-image: url("../img/region_drums/MiddleEastern/Iraqi_Naqqarat-removebg-preview.png");
+}
+
+#drumRegionsMain .panel-image-bodhran {
+  background-image: url("../img/region_drums/European/Bodhran-Hinnerk-Ruemenapf-0037-p70-removebg-preview.png");
+}
+
+#drumRegionsMain .panel-image-danbolin {
+  background-image: url("../img/region_drums/European/Danbolin_arrunta-removebg-preview.png");
+}
+
+#drumRegionsMain .panel-image-tambourine {
+  background-image: url("../img/region_drums/European/Galician_tambourine-removebg-preview.png");
+}
+
+#drumRegionsMain .panel-image-tabla {
+  background-image: url("../img/region_drums/Indian/tabla-removebg-preview.png");
+}
+
+#drumRegionsMain .panel-image-damru {
+  background-image: url("../img/region_drums/Indian/Damaru_instrument_5-removebg-preview.png");
+}
+
+#drumRegionsMain .panel-image-mridanga {
+  background-image: url("../img/region_drums/Indian/Mridanga_1-removebg-preview.png");
+}
+
+#WhyDrummingHeader {
+  background-image: url("../img/background/drum-set-1839383_1920.jpg");
+  background-repeat: no-repeat;
+  height: 200px;
+  position: relative;
+  background-attachment: fixed;
+  background-position: 0 -200px;
+  background-size: cover;
+}
+
+#WhyDrummingHeader .row {
+  height: 100%;
+}
+
+#WhyDrummingHeader .dark-overlay {
+  background-color: rgba(0, 0, 0, 0.55);
+}
+
+#WhyDrummingHeader .light-overlay {
+  background-color: rgba(255, 255, 255, 0.55);
+}
+
+#WhyDrummingMain .text-drum-primary {
+  color: #4864a3;
+}
+
+#WhyDrummingMain .text-drum-primary-shaded {
+  color: #1d2841;
+}
+
+#WhyDrummingMain .accordion-header h5 {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.info-header {
+  width: 50%;
+  margin: auto;
+}
+
+.info-header-border {
+  width: 50%;
+  margin: auto;
+  border-bottom: 1px #ddd solid;
+}
+
+.accordion-button {
+  display: block;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+#WhyDrummingCards .container {
+  width: 60vw;
+}
+
+#contact #contact-photo {
+  height: 240px;
+  width: 240px;
+  background-color: lime;
+  background-image: url("../img/card deck/portrait-of-jack-costanzo-1947-or-1948-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  margin-top: 3em;
+}
+
+#contact .input-group-text {
+  width: 55px;
+}
+
+#contact .input-group-text i {
+  margin: auto;
+}
+
+#main-footer {
+  padding-top: 15px;
+}
+
+#main-footer button {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-variant: small-caps;
+  letter-spacing: 3px;
+}
+
+#main-footer .modal-body {
+  text-align: start;
+}
+
+#main-footer .modal-body .table {
+  font-size: xx-small;
+}
+
+#main-footer .modal-body .table .thead {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+#main-footer .modal-body .table .thead tr th {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+#main-footer .attrib-remarks {
+  background-color: #e6eef8;
+  vertical-align: middle;
+}
+
+#main-footer .footer-band {
+  height: 30px;
+  margin-top: 15px;
+  background-color: #1d2841;
+}
+
+@media (max-width: 991px) {
+  #showcase .blur-overlay {
+    height: 100%;
+    margin: 0.5em;
+  }
+  #drumRegionsMain .outer-card {
+    margin-top: 30px;
+    height: 450px;
+  }
+  #drumRegionsMain .outer-card .card-body .inner-card {
+    height: 350px;
+  }
+  #drumRegionsMain .outer-card .card-body .inner-card .panel {
+    -webkit-box-flex: 1.5;
+        -ms-flex: 1.5;
+            flex: 1.5;
+    -webkit-flex: 1.5;
+    -webkit-transition: all 500ms ease-in-out;
+    -webkit-transition: -webkit-flex 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
+  }
+  #drumRegionsMain .outer-card .card-body h5 {
+    top: 14px;
+  }
+  #drumRegionsMain .panel-image {
+    background-position: center;
+  }
+}
+
+@media (max-width: 991px) and (max-width: 399px) {
+  #drumRegionsMain .panel-image-tambourine {
+    background-position-x: 54%;
+  }
+}
+
+@media (max-width: 991px) {
+  #drumRegionsMain .panel.active .panel-image {
+    background-position: center;
+    -webkit-transition: all 500ms ease-in-out;
+    -webkit-transition: background-position 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
+  }
+}
+
+@supports (-webkit-touch-callout: none) {
+  /* CSS specific to iOS devices */
+  #WhyDrummingHeader {
+    background-attachment: scroll;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: cover;
+  }
+  #drumRegionsHeader .parallax-window {
+    min-height: 150px;
+  }
+}
+
+@media (hover: hover) {
+  /* CSS specific to hoverable (likely non-mobile) devices */
+  #contact .beatTextTransparent {
+    color: transparent;
+    -webkit-transition: color .4s ease;
+    transition: color .4s ease;
+  }
+  #contact .beatTextOpaque {
+    -webkit-transition: color .9s ease;
+    transition: color .9s ease;
+  }
+}
+
+@media (hover: none) {
+  /* CSS specific to non-hoverable (likely mobile) devices */
+  #drumRegionsMain .bg-drum-success:hover {
+    background-image: none;
+  }
+  #drumRegionsMain .bg-drum-warning:hover {
+    background-image: none;
+  }
+  #drumRegionsMain .bg-drum-primary:hover {
+    background-image: none;
+  }
+  #drumRegionsMain .bg-drum-danger:hover {
+    background-image: none;
+  }
+  #contact .beatTextTransparent {
+    color: transparent;
+  }
+  #contact .beatTextOpaque {
+    color: transparent;
+  }
+  @supports not (-webkit-touch-callout: none) {
+    /* CSS specific to non-iOS non-hoverable (likely mobile) devices */
+    #WhyDrummingHeader {
+      background-size: auto;
+      background-position-x: 50%;
+      background-position-y: -50px;
+    }
+    #drumRegionsHeader .parallax-window {
+      min-height: 150px;
+    }
+  }
+}
