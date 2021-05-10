@@ -296,6 +296,7 @@ body::after {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
+  -webkit-flex: 1;
   margin: 2px;
   position: relative;
   background-color: transparent;
@@ -310,6 +311,7 @@ body::after {
   -webkit-box-flex: 8;
       -ms-flex: 8;
           flex: 8;
+  -webkit-flex: 8;
   background-color: transparent;
   background-image: radial-gradient(white 20%, rgba(255, 255, 255, 0.95) 50%, rgba(255, 255, 255, 0.8) 80%, rgba(255, 255, 255, 0.7) 95%);
   -webkit-transition: -webkit-box-flex 500ms ease-in-out;
@@ -561,6 +563,7 @@ body::after {
     -webkit-box-flex: 1.5;
         -ms-flex: 1.5;
             flex: 1.5;
+    -webkit-flex: 1.5;
     -webkit-transition: -webkit-box-flex 500ms ease-in-out;
     transition: -webkit-box-flex 500ms ease-in-out;
     transition: flex 500ms ease-in-out;
