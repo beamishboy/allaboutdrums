@@ -289,8 +289,8 @@ body::after{    //for preloading background images
                     background-image: radial-gradient( rgba(17, 17, 17, 1) 20%, rgba(17, 17, 17, .95) 50%, rgba(17, 17, 17, .8) 80%, rgba(17, 17, 17, .7)  95%);
 
                     //transition: flex 500ms;
-                    -webkit-transition: all 500ms ease-in-out;
-                    -webkit-transition: -webkit-flex 500ms ease-in-out;
+                    //-webkit-transition: all 500ms ease-in-out;
+                    //-webkit-transition: -webkit-flex 500ms ease-in-out;
                     transition: all 500ms ease-in-out;
                     //transition: background-color 1ms;
                     //-webkit-transition: background-color 1ms ease-in-out;
@@ -307,23 +307,23 @@ body::after{    //for preloading background images
                         color: #523d03;
                     }
                     //transition: flex 500ms;
-                    -webkit-transition: all 500ms ease-in-out;
-                    -webkit-transition: -webkit-flex 500ms ease-in-out;
+                    // -webkit-transition: all 500ms ease-in-out;
+                    // -webkit-transition: -webkit-flex 500ms ease-in-out;
                     transition: all 500ms ease-in-out;
             
                     .panel:hover {
                         background-color: transparent;
                         background-image: radial-gradient( rgba(255,255,255, 1) 20%, rgba(255,255,255, .95) 50%, rgba(255,255,255, .8) 80%, rgba(255, 255, 255, .7)  95%);
                         //transition: background-color 1ms;
-                        -webkit-transition: all 500ms ease-in-out;
-                        -webkit-transition: background-color 500ms ease-in-out;
+                        //-webkit-transition: all 500ms ease-in-out;
+                        //-webkit-transition: background-color 500ms ease-in-out;
                         transition: all 500ms ease-in-out;
                     }
                     .panel-image {
                         background-position: center;
                         //transition: background-position 500ms;
-                        -webkit-transition: all 500ms ease-in-out;
-                        -webkit-transition: background-position 500ms ease-in-out;
+                        //-webkit-transition: all 500ms ease-in-out;
+                        //-webkit-transition: background-position 500ms ease-in-out;
                         transition: all 500ms ease-in-out;
                     }
                 }
@@ -356,8 +356,8 @@ body::after{    //for preloading background images
             }
             
             //transition: background-color 1ms;
-            -webkit-transition: all 500ms ease-in-out;
-            -webkit-transition: background-color 500ms ease-in-out;
+            //-webkit-transition: all 500ms ease-in-out;
+            //-webkit-transition: background-color 500ms ease-in-out;
             transition: all 500ms ease-in-out;
         }
 
@@ -368,8 +368,8 @@ body::after{    //for preloading background images
             }
             
             //transition: background-color 1ms;
-            -webkit-transition: all 500ms ease-in-out;
-            -webkit-transition: background-color 500ms ease-in-out;
+            // -webkit-transition: all 500ms ease-in-out;
+            // -webkit-transition: background-color 500ms ease-in-out;
             transition: all 500ms ease-in-out;
         }
     }
@@ -389,8 +389,8 @@ body::after{    //for preloading background images
     cursor: pointer;
     margin: 2px;
     //transition: background-position 500ms;
-    -webkit-transition: all 500ms ease-in-out;
-    -webkit-transition: background-position 500ms ease-in-out;
+    // -webkit-transition: all 500ms ease-in-out;
+    // -webkit-transition: background-position 500ms ease-in-out;
     transition: all 500ms ease-in-out;
     }
 
@@ -598,8 +598,8 @@ body::after{    //for preloading background images
                         flex:1.5;
                         -webkit-flex: 1.5;
                         //transition: flex 500ms;
-                        -webkit-transition: all 500ms ease-in-out;
-                        -webkit-transition: -webkit-flex 500ms ease-in-out;
+                        // -webkit-transition: all 500ms ease-in-out;
+                        // -webkit-transition: -webkit-flex 500ms ease-in-out;
                         transition: all 500ms ease-in-out;
                     }
                 }   
@@ -625,8 +625,8 @@ body::after{    //for preloading background images
                 background-position: center;
                 
                 //transition: background-position 500ms;
-                -webkit-transition: all 500ms ease-in-out;
-                -webkit-transition: background-position 500ms ease-in-out;
+                // -webkit-transition: all 500ms ease-in-out;
+                // -webkit-transition: background-position 500ms ease-in-out;
                 transition: all 500ms ease-in-out;
             }
         }

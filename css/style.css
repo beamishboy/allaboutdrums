@@ -302,7 +302,6 @@ body::after {
   background-color: transparent;
   background-image: radial-gradient(#111111 20%, rgba(17, 17, 17, 0.95) 50%, rgba(17, 17, 17, 0.8) 80%, rgba(17, 17, 17, 0.7) 95%);
   -webkit-transition: all 500ms ease-in-out;
-  -webkit-transition: -webkit-flex 500ms ease-in-out;
   transition: all 500ms ease-in-out;
 }
 
@@ -314,7 +313,6 @@ body::after {
   background-color: transparent;
   background-image: radial-gradient(white 20%, rgba(255, 255, 255, 0.95) 50%, rgba(255, 255, 255, 0.8) 80%, rgba(255, 255, 255, 0.7) 95%);
   -webkit-transition: all 500ms ease-in-out;
-  -webkit-transition: -webkit-flex 500ms ease-in-out;
   transition: all 500ms ease-in-out;
 }
 
@@ -327,14 +325,12 @@ body::after {
   background-color: transparent;
   background-image: radial-gradient(white 20%, rgba(255, 255, 255, 0.95) 50%, rgba(255, 255, 255, 0.8) 80%, rgba(255, 255, 255, 0.7) 95%);
   -webkit-transition: all 500ms ease-in-out;
-  -webkit-transition: background-color 500ms ease-in-out;
   transition: all 500ms ease-in-out;
 }
 
 #drumRegionsMain .outer-card .card-body .inner-card .panel.active .panel-image {
   background-position: center;
   -webkit-transition: all 500ms ease-in-out;
-  -webkit-transition: background-position 500ms ease-in-out;
   transition: all 500ms ease-in-out;
 }
 
@@ -357,7 +353,6 @@ body::after {
   background-color: rgba(255, 255, 250, 0.8);
   background-image: radial-gradient(white 20%, rgba(255, 255, 255, 0.95) 50%, rgba(255, 255, 255, 0.8) 80%, rgba(255, 255, 255, 0.7) 95%);
   -webkit-transition: all 500ms ease-in-out;
-  -webkit-transition: background-color 500ms ease-in-out;
   transition: all 500ms ease-in-out;
 }
 
@@ -368,7 +363,6 @@ body::after {
 #drumRegionsMain .outer-card:hover .panel.active:hover {
   background-color: transparent;
   -webkit-transition: all 500ms ease-in-out;
-  -webkit-transition: background-color 500ms ease-in-out;
   transition: all 500ms ease-in-out;
 }
 
@@ -384,7 +378,6 @@ body::after {
   cursor: pointer;
   margin: 2px;
   -webkit-transition: all 500ms ease-in-out;
-  -webkit-transition: background-position 500ms ease-in-out;
   transition: all 500ms ease-in-out;
 }
 
@@ -581,7 +574,6 @@ body::after {
             flex: 1.5;
     -webkit-flex: 1.5;
     -webkit-transition: all 500ms ease-in-out;
-    -webkit-transition: -webkit-flex 500ms ease-in-out;
     transition: all 500ms ease-in-out;
   }
   #drumRegionsMain .outer-card .card-body h5 {
@@ -602,7 +594,6 @@ body::after {
   #drumRegionsMain .panel.active .panel-image {
     background-position: center;
     -webkit-transition: all 500ms ease-in-out;
-    -webkit-transition: background-position 500ms ease-in-out;
     transition: all 500ms ease-in-out;
   }
 }
