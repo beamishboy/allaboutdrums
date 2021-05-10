@@ -6,7 +6,7 @@
 - The nine Images from The Noun Project listed below have been modified, either individually or in combinations of two or more images. 
 Similarly, other images may also have been edited.
 
-- Attributions are to be read as per the table header, e.g.,  **[Tambourine](https://thenounproject.com/search/?q=tambourine&i=3159694) from  [Eucalyp](https://thenounproject.com/eucalyp/),  [Creative Commons Attribution 3.0 United States](https://creativecommons.org/licenses/by/3.0/us/legalcode), via  [The Noun Project](https://thenounproject.com/). **
+- Attributions are to be read as per the table header, e.g.,  **[Tambourine](https://thenounproject.com/search/?q=tambourine&i=3159694) from  [Eucalyp](https://thenounproject.com/eucalyp/),  [Creative Commons Attribution 3.0 United States](https://creativecommons.org/licenses/by/3.0/us/legalcode), via  [The Noun Project](https://thenounproject.com/).**
 
 | Description | By | Under License | Via |
 | --- | --- | --- | --- |
