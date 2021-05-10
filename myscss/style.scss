@@ -472,6 +472,9 @@ body::after{    //for preloading background images
     }
 
     .accordion-header {
+        .accordion-button:focus {
+            border-width: 0px;
+        }
         h5 {
         padding-top: 3px;
         padding-bottom: 3px;
