@@ -475,7 +475,7 @@ body::after {
 }
 
 #WhyDrummingMain .accordion-header .accordion-button:focus {
-  border-width: 0px;
+  outline: none;
 }
 
 #WhyDrummingMain .accordion-header h5 {
