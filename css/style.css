@@ -474,10 +474,6 @@ body::after {
   color: #1d2841;
 }
 
-#WhyDrummingMain .accordion-header .accordion-button:focus {
-  outline: none;
-}
-
 #WhyDrummingMain .accordion-header h5 {
   padding-top: 3px;
   padding-bottom: 3px;
