@@ -100,8 +100,9 @@ body::after{    //for preloading background images
         transition: transform 0.9s ease-in-out;
     }
 
-    .carousel-caption {
+    .carousel-caption h5,p {
         opacity: 0;
+
     }
 
     .carousel-control-prev,
