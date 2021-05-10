@@ -58,6 +58,15 @@ body {
   position: relative;
 }
 
+body::after {
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  z-index: -1;
+  content: url("../img/background/ForPatterns/regions_bg_pattern_green.png") url("../img/background/ForPatterns/regions_bg_pattern_orange.png") url("../img/background/ForPatterns/regions_bg_pattern_blue.png") url("../img/background/ForPatterns/regions_bg_pattern_red.png");
+}
+
 .navbar-drums {
   opacity: 50%;
   background-color: #1d2841;

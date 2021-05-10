@@ -50,3 +50,14 @@ function toTheBeat(e) {
     const beatSpan = document.querySelector("#beatText");
     beatSpan.className = spanClass;
 }
+
+// function preloader() {
+//     redImage = new Image();
+//     orangeImage = new Image();
+//     blueImage = new Image();
+//     greenImage = new Image();
+//     redImage.src = "../img/background/ForPatterns/regions_bg_pattern_red.png";
+//     orangeImage.src = "../img/background/ForPatterns/regions_bg_pattern_orange.png";
+//     blueImage.src = "../img/background/ForPatterns/regions_bg_pattern_blue.png";
+//     greenImage.src = "../img/background/ForPatterns/regions_bg_pattern_green.png";
+// }
