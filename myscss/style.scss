@@ -60,6 +60,11 @@ body {
     position:relative;
 }
 
+body::after{    //for preloading background images
+    position:absolute; width:0; height:0; overflow:hidden; z-index:-1; // hide images
+    content:url("../img/background/ForPatterns/regions_bg_pattern_green.png") url("../img/background/ForPatterns/regions_bg_pattern_orange.png") url("../img/background/ForPatterns/regions_bg_pattern_blue.png") url("../img/background/ForPatterns/regions_bg_pattern_red.png");   // load images
+ }
+
 .navbar-drums {
 
     opacity: 50%;
