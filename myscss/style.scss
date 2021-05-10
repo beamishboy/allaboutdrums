@@ -277,20 +277,17 @@ body::after{    //for preloading background images
                     border-radius: 3px;
                     cursor: pointer;
                     flex: 1;
-                    //-webkit-flex: 1;
                     
                     margin: 2px;
                     position: relative;
                     background-color:transparent;
                     background-image: radial-gradient( rgba(17, 17, 17, 1) 20%, rgba(17, 17, 17, .95) 50%, rgba(17, 17, 17, .8) 80%, rgba(17, 17, 17, .7)  95%);
                     transition: all 500ms ease-in-out;
-                    //-webkit-transition: -webkit-flex 500ms ease-in-out;
             
                 }
 
                 .panel.active {
                     flex: 8;
-                    //-webkit-flex: 8;
                     background-color:transparent;
                     background-image: radial-gradient( rgba(255,255,255, 1) 20%, rgba(255,255,255, .95) 50%, rgba(255,255,255, .8) 80%, rgba(255, 255, 255, .7)  95%);
                     h5 {
@@ -303,7 +300,6 @@ body::after{    //for preloading background images
                     }
 
                     transition: all 500ms ease-in-out;
-                    //-webkit-transition: -webkit-flex 500ms ease-in-out;
                 }
             
                 .panel-image {
@@ -552,9 +548,7 @@ body::after{    //for preloading background images
                     height:350px;
                     .panel {
                         flex: 1.5;
-                        //-webkit-flex: 1.5;
                         transition: all 500ms ease-in-out;
-                        //-webkit-transition: -webkit-flex 500ms ease-in-out;
                     }
                 }   
 
