@@ -2,7 +2,7 @@
 *A tribute to drums around the world*
 
 ### Image Credits
-*Important Notices: *
+* Important Notices: *
 - The nine Images from The Noun Project listed below have been modified, either individually or in combinations of two or more images. 
 Similarly, other images may also have been edited.
 
