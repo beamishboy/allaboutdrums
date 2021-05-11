@@ -549,24 +549,25 @@ body::after{    //for preloading background images
                     .panel {
                         flex: 1.5;
                         transition: all 500ms ease-in-out;
+                        .panel-image{
+                            background-position: center;
+                        }
+                        .panel-image-tambourine {
+                            background-position-x: calc(max(50%, 155px)); 
+                        }
+
                     }
                 }   
 
                 h5 {
                     top: 14px;
+                    
                 }
             }
         }
 
-        .panel-image{
-            background-position: center;
-        }
 
-        @media (max-width: 399px) {
-            .panel-image-tambourine {
-            background-position-x: 54%;  
-            }
-        }
+
 
         .panel.active {
             .panel-image{
@@ -574,7 +575,11 @@ body::after{    //for preloading background images
             }
         }
     }
+
+
 }
+
+
 
 @supports (-webkit-touch-callout: none) {
     /* CSS specific to iOS devices */ 
@@ -657,3 +662,15 @@ body::after{    //for preloading background images
         }
     }
 }
+
+                        
+
+
+
+
+// .apple {
+//     background-position: right; 
+//     background-repeat:repeat;
+//     background-image: url("../img/icons/noun_Darbuka_421097.png");
+//     background-color: orange;
+//     }

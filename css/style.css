@@ -560,21 +560,15 @@ body::after {
     -webkit-transition: all 500ms ease-in-out;
     transition: all 500ms ease-in-out;
   }
+  #drumRegionsMain .outer-card .card-body .inner-card .panel .panel-image {
+    background-position: center;
+  }
+  #drumRegionsMain .outer-card .card-body .inner-card .panel .panel-image-tambourine {
+    background-position-x: calc(max(50%, 155px));
+  }
   #drumRegionsMain .outer-card .card-body h5 {
     top: 14px;
   }
-  #drumRegionsMain .panel-image {
-    background-position: center;
-  }
-}
-
-@media (max-width: 991px) and (max-width: 399px) {
-  #drumRegionsMain .panel-image-tambourine {
-    background-position-x: 54%;
-  }
-}
-
-@media (max-width: 991px) {
   #drumRegionsMain .panel.active .panel-image {
     background-position: center;
   }
