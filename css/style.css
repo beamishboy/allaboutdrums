@@ -102,7 +102,7 @@ body::after {
   transition: transform 0.9s ease-in-out, -webkit-transform 0.9s ease-in-out;
 }
 
-#showcase .carousel-caption h5, #showcase p {
+#showcase .carousel-caption h5, #showcase .carousel-caption p {
   opacity: 0;
 }
 

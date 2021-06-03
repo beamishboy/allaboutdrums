@@ -100,7 +100,7 @@ body::after{    //for preloading background images
         transition: transform 0.9s ease-in-out;
     }
 
-    .carousel-caption h5,p {
+    .carousel-caption h5,.carousel-caption p {
         opacity: 0;
 
     }
@@ -561,14 +561,9 @@ body::after{    //for preloading background images
 
                 h5 {
                     top: 14px;
-                    
                 }
             }
         }
-
-
-
-
         .panel.active {
             .panel-image{
                 background-position: center;
